@@ -1,0 +1,11 @@
+//constant value of 293 is assigned to constant variable kelvin
+const kelvin = 0;
+//celsius is 273 degrees less than kelvin so this value is assigned to celsius variable
+var celsius = kelvin-273;
+//fahrenheit value is assigned to its variable let so that it can be changed later
+let fahrenheit = celsius*(9/5) + 32;
+//as the value desired is in floor, we are rounding it using math module functions
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
